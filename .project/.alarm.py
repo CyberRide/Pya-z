@@ -33,7 +33,7 @@ def alarm():
 		if current_time == set_alarm_time:
 			print("Time to Wake up")
 			from playsound import playsound
-			playsound('alarm.wav')
+			playsound('.project/alarm.wav')
 			# Playing sound
 			# winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
 
